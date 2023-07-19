@@ -10,3 +10,4 @@ console.log(city);
 
 var pin; //// variable declaration
 console.log(pin); 
+
