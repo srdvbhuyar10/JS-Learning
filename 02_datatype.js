@@ -18,3 +18,4 @@ console.log(typeof city);
 pin = 201020;
 console.log(pin);
 console.log(typeof pin);
+
