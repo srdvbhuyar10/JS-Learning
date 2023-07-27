@@ -11,7 +11,7 @@ console.log(`Lenght of length is ${charAtLastIndex} of Index is ${lengthGreet}`)
 
 console.log(`------------------STEP-3-------------------`);
 
-var greet = "      Hey,You are doing Good,Keep it up        ";
+var greet = "       Hey,You are doing Good,Keep it up        ";
 var result = greet.trim();
 console.log(`Before Trim String length : ${greet.length}, After Trim string is ${result} and it's length is ${result.length}`);
 
@@ -46,6 +46,12 @@ console.log(`Sub-string starting from Index ''Keep it up' is : ${result}`);
 
 console.log("------------STEP-9-------------------");
 
-var resultEndSpaces = grretlength('end with word Up');
-console.log(`string starting from given end with word Up : ${result}`);
-var result = givenString.split(" end with word Up")
+var TotalEndSpaces = greet.indexOf( `String ends with the word "Up": after the step-3`);
+var EndSpaces = TotalEndSpaces;
+console.log(`String ends with the word Up'after step 3 is:${EndSpaces}`);
+
+
+console.log(`--------------STEP-10-----------------------`);
+var TotalEndSpaces = greet.indexOf( `String start with the word "Hey": after the step-3`);
+var EndSpaces = TotalEndSpaces;
+console.log(`String start with the word Hey'after step 3 is:${EndSpaces}`);
