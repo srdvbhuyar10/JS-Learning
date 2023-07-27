@@ -1,13 +1,13 @@
 
 console.log("------------Assignment-1-------------");
 
-var eligibility=function(graduation,HSC,SSC,name){
-var result= (graduation>=70,HSC>=80,SSC>=90)? " Congratulations! You are eligible for TCS Interview":   "Unfortunatly you are not eligible for TCS Interview";
-console.log(`${name} ${result}`);
-}
-  eligibility(80,86,90,"Vijay:");
-  eligibility(70,65,55,"Sri:");
-  eligibility(60,79,88,"Aarya:");
+var eligibility=function(graduation, HSC, SSC,name){
+    var result= (graduation>=70 || HSC>=80 || SSC>=90)? " Congratulations! You are eligible for TCS Interview":   "Unfortunatly, you are not eligible for TCS Interview";
+    console.log(`${name} ${result}`);
+    }
+      eligibility(80, 86, 90,"Vijay:");
+      eligibility(70, 65, 55,"Sri:");
+      eligibility(60, 79, 88,"Aarya:");
 
 
   console.log("-----------Assignmet-2---------------");
