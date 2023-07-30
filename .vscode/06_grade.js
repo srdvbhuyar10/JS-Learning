@@ -1,7 +1,7 @@
 console.log("----------Assignment-3------------");
 console.log("------------------------------------------");
 
-function gradecalcalculator(marks) {
+function gradecalculator(marks) {
     var givenmarks = +marks;
     if (givenmarks<=0 || givenmarks > 100 || isNaN(givenmarks)) {
         console.log(`Please give the actual marks for the grading`);
@@ -20,17 +20,17 @@ function gradecalcalculator(marks) {
     }
 }
 
-gradecalcalculator(98);
-gradecalcalculator(80);
-gradecalcalculator(90);
-gradecalcalculator(0);
-gradecalcalculator(64);
-gradecalcalculator(49);
-gradecalcalculator(-7);
-gradecalcalculator(35);
-gradecalcalculator("Eighty");
-gradecalcalculator(29);
-gradecalcalculator(91);
-gradecalcalculator(150);
-gradecalcalculator(undefined);
-gradecalcalculator(null);
+gradecalculator(98);
+gradecalculator(80);
+gradecalculator(90);
+gradecalculator(0);
+gradecalculator(150);
+gradecalculator(-7);
+gradecalculator(35);
+gradecalculator(29);
+gradecalculator(64);
+gradecalculator(49);
+gradecalculator(91);
+gradecalculator("Eighty");
+gradecalculator(undefined);
+gradecalculator(null);
